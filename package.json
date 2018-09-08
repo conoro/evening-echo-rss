@@ -1,0 +1,23 @@
+{
+  "name": "evening-echo-rss",
+  "version": "1.0.0",
+  "description": "Get list of articles on Evening Echo news web-site pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "rss",
+    "echo",
+    "cork",
+    "ireland"
+  ],
+  "author": "Conor O'Neill",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "rss": "^1.2.2"
+  }
+}
