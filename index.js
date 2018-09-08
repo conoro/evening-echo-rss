@@ -8,7 +8,6 @@ module.exports.check = (event, context, callback) => {
     var cheerio = require('cheerio');
     var RSS = require('rss');
     var siteURL = event.query.page;
-    var links = [];
 
     var feed = new RSS({
         title: 'Evening Echo RSS',
