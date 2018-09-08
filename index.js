@@ -32,10 +32,6 @@ module.exports.check = (event, context, callback) => {
                 var link = $(this).attr('href');
                 var title = $(this).text();
                 var currentDate = new Date();
-                links.push({
-                    "link": link,
-                    "title": title
-                });
                 feed.item({
                     title: title,
                     description: title,
