@@ -1,10 +1,8 @@
 service: evening-echo-rss
 
-frameworkVersion: ">=1.1.0 <2.0.0"
-
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
 
 functions:
   check:
